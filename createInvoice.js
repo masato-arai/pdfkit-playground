@@ -145,13 +145,13 @@ function generateFooter(doc) {
 }
 
 function generateTableRow(
-  doc,
-  y,
-  item,
-  description,
-  unitCost,
-  quantity,
-  lineTotal
+    doc,
+    y,
+    item,
+    description,
+    unitCost,
+    quantity,
+    lineTotal
 ) {
     doc
         .fontSize(10)
